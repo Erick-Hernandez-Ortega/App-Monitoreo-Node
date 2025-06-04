@@ -1,2 +1,9 @@
-const nameEnv: string = 'world';
-console.log(`Hello ${nameEnv}!`);
+import { ServerApp } from "./presentation/server";
+
+(async () => {
+  main();
+})();
+
+function main(): void {
+  ServerApp.start();
+}
