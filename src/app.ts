@@ -1,6 +1,6 @@
 import { ServerApp } from "./presentation/server";
 
-(async () => {
+(async (): Promise<void> => {
   main();
 })();
 
